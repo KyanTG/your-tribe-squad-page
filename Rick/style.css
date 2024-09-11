@@ -1,0 +1,81 @@
+header {
+    margin-top: 20px;  
+    background-color: blueviolet;
+     height: 50px;
+    
+  
+
+}
+
+h1 {text-align: center;
+    font-style: oblique;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    height: 100px;
+    gap:8px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.one {
+ background-color: red;   
+}
+
+.two{
+background-color: aquamarine;
+}
+
+.three{
+background-color: rgb(23, 54, 122);
+}
+
+.four{
+background-color: yellow;
+}
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    height: 100px;
+    gap:8px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.five {
+ background-color: red;   
+}
+
+.six{
+background-color: aquamarine;
+}
+
+.seven{
+background-color: rgb(23, 54, 122);
+}
+
+.eight{
+background-color: yellow;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+        background-color: purple;
+height: 300px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+    }
