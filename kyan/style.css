@@ -6,10 +6,13 @@ body {
 }
 
 
+header {
+background-color: white;
+grid-column: 1 / -1;
+}
+
 h1 {
-  grid-row: 1 / 1 ;
-  grid-column: 1 / -1;
-  font-size: 40px;
+  grid-column: ;
   text-align: center;
 }
 
@@ -99,7 +102,18 @@ p {
 
 @media screen and (max-width:690px) {
   body {
-   background:rgb(0, 0, 0);
+   width: 100%;
+    background:rgb(0, 0, 0);
 
 }
 }
+@media screen and (max-width:390px) {
+ #one {
+  width: 40%;
+
+} }
+@media screen and (max-width:390px) {
+  #two {
+   width: 40%;
+ 
+ } }
