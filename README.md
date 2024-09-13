@@ -3,6 +3,8 @@
 
 https://kyantg.github.io/your-tribe-squad-page/kyan/
 
+https://kyantg.github.io/your-tribe-squad-page/Rick/
+
 
 # Squad page
 
