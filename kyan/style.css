@@ -26,33 +26,33 @@ font-style: italic;
 }
 
 #one {
-grid-row: 2/2;
-grid-column: 2/2;
+grid-row: 2;
+grid-column: 2;
 transform: rotate(350deg);
 
 }
 
 #two  {
- grid-row: 3/3;
- grid-column: 3/3;
+ grid-row: 3;
+ grid-column: 3;
  transform: rotate(10deg);
 }
 
 #three {
-  grid-row: 2/2;
-  grid-column: 4/4;
+  grid-row: 2;
+  grid-column: 4;
   transform: rotate(350deg);
 }
 
 #four {
-  grid-row: 3/3;
-  grid-column: 5/5;
+  grid-row: 3;
+  grid-column: 5;
   transform: rotate(10deg);
 }
 
 #five  {
-  grid-row: 2/2;
-  grid-column: 6/6;
+  grid-row: 2;
+  grid-column: 6;
   transform: rotate(355deg);
 }
 
@@ -107,20 +107,20 @@ p {
 }
 
 #ruimte1 {
-  grid-column: 1/1;
-  grid-row: 1/1;
+  grid-column: 1;
+  grid-row: 1;
   width: 400px;
 
 }
 #ruimte2 {
-  grid-column: 2/2;
-  grid-row: 1/1;
+  grid-column: 2;
+  grid-row: 1;
   width: 400px;
 
 }
 #ruimte3 {
-  grid-column: 3/3;
-  grid-row: 1/1;
+  grid-column: 3;
+  grid-row: 1;
   width: 400px;
 }
 
@@ -143,30 +143,30 @@ p {
  
 @media screen and (max-width: 690px)  {#one
  { width: 115px;
-   grid-column: 2/2;
+   grid-column: 2;
 } 
 }
 
 @media screen and (max-width: 690px)  {#two
   { width: 115px;
-    grid-column: 3/3;
+    grid-column: 3;
  } 
  }
 
  @media screen and (max-width: 690px)  {#three
   { width: 115px;
-    grid-column: 4/4;
+    grid-column: 4;
  } 
  }
 
  @media screen and (max-width: 690px)  {#four
   { width: 115px;
-    grid-column: 5/5;
+    grid-column: 5;
  } 
  }
  @media screen and (max-width: 690px)  {#five
   { width: 115px;
-    grid-column: 6/6;
+    grid-column: 6;
  } 
  }
 
@@ -194,8 +194,8 @@ p {
   
 @media screen and (max-width: 1250px) {#ruimte1
   {
-    grid-column: 1/1 ;
-    grid-row: 1/1;
+    grid-column: 1;
+    grid-row: 1;
     width: 230px;
 
   }
@@ -203,16 +203,16 @@ p {
 
 @media screen and (max-width: 1250px) {#ruimte2
   {
-    grid-column: 2/2 ;
-    grid-row: 1/1;
+    grid-column: 2 ;
+    grid-row: 1;
     width: 230px;
   }
 }
 
 @media screen and (max-width: 1250px) {#ruimte3
   {
-    grid-column: 3/3 ;
-    grid-row: 1/1;
+    grid-column: 3;
+    grid-row: 1;
     width: 230px;
   }
 }
@@ -229,8 +229,8 @@ p {
   
 @media screen and (max-width: 750px) {#ruimte1
   {
-    grid-column: 1/1 ;
-    grid-row: 1/1;
+    grid-column: 1 ;
+    grid-row: 1;
     width: 130px;
 
   }
@@ -238,16 +238,16 @@ p {
 
 @media screen and (max-width: 750px) {#ruimte2
   {
-    grid-column: 2/2 ;
-    grid-row: 1/1;
+    grid-column: 2 ;
+    grid-row: 1;
     width: 130px;
   }
 }
 
 @media screen and (max-width: 750px) {#ruimte3
   {
-    grid-column: 3/3 ;
-    grid-row: 1/1;
+    grid-column: 3 ;
+    grid-row: 1;
     width: 130px;
   }
 }
