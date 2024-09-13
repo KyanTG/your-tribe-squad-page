@@ -61,11 +61,13 @@ transform: rotate(350deg);
 .container {
 
   background-color:darkgreen;
-  margin-top: 25%;
+  margin-top: 20%;
    display: grid;
    grid-template-columns: repeat(30, 85px) ;
    grid-template-rows: 250px;
    margin-bottom: 10%;
+   margin-right: 3%;
+   margin-left: 3%;
    overflow-y: hidden;
    overflow-x: scroll;
    border-radius: 50px;
@@ -87,7 +89,10 @@ p {
   color: darkgreen;
   font-size: 25px;
   text-align: center;
-  margin: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 
 
 }
@@ -115,6 +120,14 @@ p {
   grid-column: 3/3;
   grid-row: 1/1;
 }
+
+@media screen and (max-width: 690px) {h1
+{
+ font-size: 50px;
+ text-align: center;
+
+}
+} 
 
 @media screen and (max-width: 690px)  {.containerd
   { 
