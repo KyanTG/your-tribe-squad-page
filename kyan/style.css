@@ -179,18 +179,75 @@ p {
 }
 }
 
-@media screen and (max-width: 690px) {.container2
+@media screen and (max-width: 1250px) {.container2
   {  display: grid;
     justify-content: center;
-    column-gap: 1px;
-    grid-template-columns: 210px 210px 210px;
+    column-gap: 20px;
+    grid-template-columns: 240px 240px 240px;
     grid-template-rows: 400px;
 
 
   }
 }
   
+@media screen and (max-width: 1250px) {#ruimte1
+  {
+    grid-column: 1/1 ;
+    grid-row: 1/1;
+    width: 230px;
+
+  }
+}
+
+@media screen and (max-width: 1250px) {#ruimte2
+  {
+    grid-column: 2/2 ;
+    grid-row: 1/1;
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 1250px) {#ruimte3
+  {
+    grid-column: 3/3 ;
+    grid-row: 1/1;
+    width: 230px;
+  }
+}
+@media screen and (max-width: 750px) {.container2
+  {  display: grid;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 200px;
 
 
+  }
+}
+  
+@media screen and (max-width: 750px) {#ruimte1
+  {
+    grid-column: 1/1 ;
+    grid-row: 1/1;
+    width: 130px;
+
+  }
+}
+
+@media screen and (max-width: 750px) {#ruimte2
+  {
+    grid-column: 2/2 ;
+    grid-row: 1/1;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 750px) {#ruimte3
+  {
+    grid-column: 3/3 ;
+    grid-row: 1/1;
+    width: 130px;
+  }
+}
 
 
