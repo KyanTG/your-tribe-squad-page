@@ -124,7 +124,7 @@ p {
 
 @media screen and (max-width: 690px) {h1
 {
- font-size: 50px;
+ font-size: 60px;
  text-align: center;
 
 }
@@ -169,14 +169,25 @@ p {
  }
 
  @media screen and (max-width: 690px) {h2
- { font-size: 30px;
+ { font-size: 40px;
 }
 }
 
 @media screen and (max-width: 690px) {p
- { font-size: 20px;
+ { font-size: 30px;
 
 }
+}
+
+@media screen and (max-width: 690px) {.container2
+  {  display: grid;
+    justify-content: center;
+    column-gap: 1px;
+    grid-template-columns: 210px 210px 210px;
+    grid-template-rows: 400px;
+
+
+  }
 }
   
 
