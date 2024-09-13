@@ -1,50 +1,158 @@
 
+html {
+   background-color: beige;
+   scrollbar-color: darkgreen beige;
 
-header {
- 
-  background-color: rgb(211, 48, 48);
-  margin-top: 5%;
-   display: grid;
-   grid-template-columns: repeat( auto-fit, minmax(75px, 1fr ) );
-  
- 
+
 }
 
-.container {
-
-  background-color: rgb(71, 8, 8);
-  margin-top: 10%;
+.containerd {
+  
    display: grid;
-   grid-template-columns: repeat( auto-fit, minmax(75px, 1fr ) );
-
+   grid-template-columns: 1fr 100px 100px 100px 100px 100px 100px 1fr;
+   grid-template-rows:30px 30px 30px 30px;
+   
 }
 
 
 
 h1 {
-  
-  text-align: center;
+font-family: cursive ;
+color: darkgreen;
+font-style: italic;
+ text-align: center;
+ font-size: 80px;
+ background-color: beige;
+ text-shadow: 20%;
+}
+
+#one {
+grid-row: 2/2;
+grid-column: 2/2;
+transform: rotate(350deg);
+
+}
+
+#two  {
+ grid-row: 3/3;
+ grid-column: 3/3;
+ transform: rotate(10deg);
+}
+
+#three {
+  grid-row: 2/2;
+  grid-column: 4/4;
+  transform: rotate(350deg);
+}
+
+#four {
+  grid-row: 3/3;
+  grid-column: 5/5;
+  transform: rotate(10deg);
+}
+
+#five  {
+  grid-row: 2/2;
+  grid-column: 6/6;
+  transform: rotate(355deg);
 }
 
 
+.container {
+
+  background-color:darkgreen;
+  margin-top: 25%;
+   display: grid;
+   grid-template-columns: repeat(30, 85px) ;
+   grid-template-rows: 250px;
+   margin-bottom: 10%;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   border-radius: 50px;
+
+}
+
 
 h2 {
-  
+  font-family: cursive;
+  font-style: italic;
+  color: darkgreen;
   font-size: 50px;
   text-align: center;
 
 }
 
 p {
- 
-  font-size: 50px;
+  font-family: cursive;
+  color: darkgreen;
+  font-size: 25px;
   text-align: center;
+  margin: 10%;
 
 
 }
 
+.container2 {
+  display: grid;
+  justify-content: center;
+  column-gap: 2px;
+  grid-template-columns: 420px 420px 420px;
+  grid-template-rows: 700px;
+  
+}
 
+#ruimte1 {
+  grid-column: 1/1;
+  grid-row: 1/1;
 
+}
+#ruimte2 {
+  grid-column: 2/2;
+  grid-row: 1/1;
+
+}
+#ruimte3 {
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+@media screen and (max-width: 690px)  {.containerd
+  { 
+    display: grid;
+    grid-template-columns: 1fr 60px 60px 60px 60px 60px 60px 1fr;
+    grid-template-rows:30px 30px 30px 30px;
+    
+ } 
+ }
+ 
+@media screen and (max-width: 690px)  {#one
+ { width: 115px;
+   grid-column: 2/2;
+} 
+}
+
+@media screen and (max-width: 690px)  {#two
+  { width: 115px;
+    grid-column: 3/3;
+ } 
+ }
+
+ @media screen and (max-width: 690px)  {#three
+  { width: 115px;
+    grid-column: 4/4;
+ } 
+ }
+
+ @media screen and (max-width: 690px)  {#four
+  { width: 115px;
+    grid-column: 5/5;
+ } 
+ }
+ @media screen and (max-width: 690px)  {#five
+  { width: 115px;
+    grid-column: 6/6;
+ } 
+ }
   
 
 
