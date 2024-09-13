@@ -15,9 +15,8 @@ html {
 }
 
 
-
 h1 {
-font-family: cursive ;
+font-family: monospace ;
 color: darkgreen;
 font-style: italic;
  text-align: center;
@@ -77,7 +76,7 @@ transform: rotate(350deg);
 
 
 h2 {
-  font-family: cursive;
+  font-family: monospace ;
   font-style: italic;
   color: darkgreen;
   font-size: 50px;
@@ -86,7 +85,7 @@ h2 {
 }
 
 p {
-  font-family: cursive;
+  font-family: monospace;
   color: darkgreen;
   font-size: 25px;
   text-align: center;
