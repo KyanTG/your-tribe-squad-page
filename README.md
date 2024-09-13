@@ -1,4 +1,9 @@
 
+# Onze Squadpages
+
+https://kyantg.github.io/your-tribe-squad-page/kyan/
+
+
 # Squad page
 
 Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
