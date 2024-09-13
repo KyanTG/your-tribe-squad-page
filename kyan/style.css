@@ -71,6 +71,7 @@ transform: rotate(350deg);
    overflow-y: hidden;
    overflow-x: scroll;
    border-radius: 50px;
+   
 
 }
 
@@ -166,6 +167,17 @@ p {
     grid-column: 6/6;
  } 
  }
+
+ @media screen and (max-width: 690px) {h2
+ { font-size: 30px;
+}
+}
+
+@media screen and (max-width: 690px) {p
+ { font-size: 20px;
+
+}
+}
   
 
 
