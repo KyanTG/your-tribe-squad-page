@@ -1,0 +1,75 @@
+
+html {
+   background-color: black;
+}
+::-webkit-scrollbar {
+  width: 0.3cm;
+  height: 0.3cm;
+ }
+ 
+::-webkit-scrollbar-track {
+  background:rgb(0, 0, 0);
+  border-radius: 20px;
+ }
+ 
+::-webkit-scrollbar-thumb {
+   background:rgb(0, 195, 255);
+   border-radius: 20px;
+}
+.container::-webkit-scrollbar {
+  width: 0.3cm;
+ }
+ 
+.container::-webkit-scrollbar-track {
+  background:rgb(0, 0, 0);
+  border-radius: 20px;
+ }
+ 
+.container::-webkit-scrollbar-thumb {
+   background:rgb(0, 195, 255);
+   border-radius: 20px;
+ 
+ }
+ 
+
+
+
+.container {
+
+  background-color:black;
+  margin-top: 20%;
+   display: grid;
+   grid-template-columns: repeat(30, 130px) ;
+   grid-template-rows: 250px;
+   margin-bottom: 10%;
+   margin-right: 3%;
+   margin-left: 3%;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   border-radius: 50px;
+  
+}
+
+#anouar {
+  img { object-fit: contain; width: 100%; }
+}
+
+#anouk {
+  img { object-fit: contain; width: 100%; }
+}
+
+#aria {
+  img { object-fit: contain; width: 100%; }
+}
+
+#arman {
+  img { object-fit: contain; width: 100%; }
+}
+
+#daan {
+  img { object-fit: contain; width: 100%; }
+}
+
+#finn {
+  img { object-fit: contain; width: 100%; }
+}
