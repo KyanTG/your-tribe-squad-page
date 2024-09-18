@@ -34,9 +34,11 @@ background-color: #00FFFF;
 padding: 8px;
 border-radius: 20px;
         p{
+            object-fit: contain; width: 100%; 
             color: rgb(0, 0, 0);
         }
         h2{
+             object-fit: contain; width: 100%; 
             color: rgb(0, 0, 0);
         }
 }
