@@ -1,3 +1,6 @@
+# Main Website
+
+https://kyantg.github.io/your-tribe-squad-page/Squadpage%201H%20legends/
 
 # Onze Squadpages
 
