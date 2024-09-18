@@ -19,7 +19,7 @@ body{
 display: grid;
 grid-template-columns: repeat(30, 110px);
     gap: 8px;
-background-color: #00FFFF;
+
 margin-top: 6em;
 }
 
