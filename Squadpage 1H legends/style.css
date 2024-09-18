@@ -1,14 +1,21 @@
-header{
-    display: grid;
-    justify-content: center; 
+.header{
+background-color: #00FFFF;
+transition-duration: 2s;
+display: grid;
+justify-content: center; 
 align-items: center;
-    height: 100px;
-    margin: auto;
-    width: max-content;
-    background-color: #00FFFF;
-    width:400px ;
+height: 100px;
+margin: auto;
+width: max-content;
+background-color: #00FFFF;
+width:400px ;
 border-radius: 20px;
 margin-top: 4em;
+
+}
+.header:hover{
+   height: 200px;
+   width: 800px;
 }
 
 body{
