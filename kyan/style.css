@@ -16,9 +16,9 @@ html {
 
 
 h1 {
-font-family: monospace ;
-color: darkgreen;
-font-style: italic;
+ font-family: monospace ;
+ color: darkgreen;
+ font-style: italic;
  text-align: center;
  font-size: 80px;
  background-color: beige;
@@ -62,7 +62,7 @@ transform: rotate(350deg);
   background-color:darkgreen;
   margin-top: 20%;
    display: grid;
-   grid-template-columns: repeat(30, 85px) ;
+   grid-template-columns: repeat(30, 130px) ;
    grid-template-rows: 250px;
    margin-bottom: 10%;
    margin-right: 3%;
