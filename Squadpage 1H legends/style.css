@@ -24,11 +24,14 @@ body{
 
 .container{
 display: grid;
-grid-template-columns: repeat(30, 110px);
+grid-template-columns: repeat(30, 100px);
+grid-template-rows: 250px;
     gap: 8px;
-
 margin-top: 6em;
+
+
 }
+
 
 .container2{
 display: grid;
@@ -40,6 +43,7 @@ margin-right: 70px;
 background-color: #00FFFF;
 padding: 8px;
 border-radius: 20px;
+
         p{
             object-fit: contain; width: 100%; 
             color: rgb(0, 0, 0);
