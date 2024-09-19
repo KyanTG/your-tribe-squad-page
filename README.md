@@ -1,21 +1,6 @@
-# Main Website
+# Welkom!
 
-https://kyantg.github.io/your-tribe-squad-page/Squadpage%201H%20legends/
-edu.nl/8mfya
-
-# Onze Squadpages
-
-https://kyantg.github.io/your-tribe-squad-page/kyan/
-
-https://kyantg.github.io/your-tribe-squad-page/Rick/
+Welkom op onze github site! Bij dit project hebben wij een squadpage site ontworpen van de klas 1H, hierin staat van iedereen een foto met als je daarop klikt een link naar hun github/ visitekaartje.
 
 
-# Squad page
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
-
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
