@@ -8,11 +8,12 @@ Welkom op onze github site! Bij dit project hebben wij een squadpage site ontwor
 # Desktop
 ![image](https://github.com/user-attachments/assets/f043acc6-b80d-4181-858b-205f0aaae369)
 
-# Ipad / Mini
+# Ipad / Iphone
 
-![image](https://github.com/user-attachments/assets/2a5eb829-7fe1-4b42-8681-6efd55ce2a3a)
+![Ipad en foto](https://github.com/user-attachments/assets/684c92b9-9a4e-4c31-ac58-5b764fe3f53d)
 
-# Iphone 13
+
+
 
 
 
