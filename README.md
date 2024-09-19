@@ -14,7 +14,7 @@ Welkom op onze github site! Bij dit project hebben wij een squadpage site ontwor
 
 # Iphone 13
 
-![image](https://github.com/user-attachments/assets/7216a997-b4b3-4c66-a5d7-b501bbda8406)
+
 
 
 
